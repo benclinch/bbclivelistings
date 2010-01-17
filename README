@@ -1,0 +1,1 @@
+Shows what's on now and next on BBC radio. getxml.php should run as a cron between midnight and (probably) 1AM.
