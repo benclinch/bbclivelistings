@@ -1,0 +1,79 @@
+html, body, div, h1, h2, h3, ul, ol, li, form, fieldset,
+input, textarea {
+    margin: 0;
+    padding: 0;
+
+}
+ul {list-style: none;}
+img, fieldset {border: 0; padding: 0;}
+em {font-style: italic;}
+strong {font-weight: bold;}
+
+h1 {
+	font-size: 250%;
+}
+
+h2 {
+	font-size: 175%;
+}
+
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	color: #000;
+	background-image: url('drop.gif');
+	background-repeat: repeat-y;
+	background-color: #CCC;
+}
+
+#container {
+	width: 900px;
+	height: 100%;
+	padding-top: 40px;
+	padding-left: 20px;
+}
+
+#nownext {
+	margin-top: 20px;
+}
+
+#now {
+	float: left;
+	width: 395px;
+	padding: 5px;
+}
+
+#next {
+	float: right;
+	width: 395px;
+	padding: 5px;
+	color: #666;
+}
+
+#now img{
+	border-bottom: 20px;
+}
+
+#next img{
+	border-bottom: 20px;
+}
+
+#next a:link {
+	color: #666;
+}
+
+#next a:visited {
+	color: #666;
+}
+
+a:link {
+	color: #333;
+}
+
+a:visited {
+	color: #333;
+}
+
+#header h1 {
+	color: #FF0000;
+}
